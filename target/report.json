@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2019-12-03T20:57:07.678Z",
+        "start_timestamp": "2019-12-17T19:40:44.408Z",
         "line": 17,
         "name": "Customer can search for any property",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4229447610,
+              "duration": 830115,
               "status": "passed"
             },
             "line": 6,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 1153594333,
+              "duration": 180396,
               "status": "passed"
             },
             "line": 7,
@@ -43,7 +43,7 @@
           },
           {
             "result": {
-              "duration": 158778,
+              "duration": 94250,
               "status": "passed"
             },
             "line": 8,
@@ -61,7 +61,7 @@
           },
           {
             "result": {
-              "duration": 88573,
+              "duration": 93530,
               "status": "passed"
             },
             "line": 9,
@@ -79,7 +79,7 @@
           },
           {
             "result": {
-              "duration": 122510,
+              "duration": 93706,
               "status": "passed"
             },
             "line": 10,
@@ -97,7 +97,7 @@
           },
           {
             "result": {
-              "duration": 159949,
+              "duration": 73235,
               "status": "passed"
             },
             "line": 11,
@@ -115,7 +115,7 @@
           },
           {
             "result": {
-              "duration": 72454,
+              "duration": 51087,
               "status": "passed"
             },
             "line": 12,
@@ -127,7 +127,7 @@
           },
           {
             "result": {
-              "duration": 132670,
+              "duration": 119069,
               "status": "passed"
             },
             "line": 13,

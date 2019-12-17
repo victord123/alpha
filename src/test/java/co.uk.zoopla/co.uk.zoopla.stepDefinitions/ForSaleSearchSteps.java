@@ -10,23 +10,14 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class ForSaleSearchSteps {
-    WebDriver driver;
-    WebElement searchField;
+
     @Given("I navigate to zoopla homepage")
     public void i_navigate_to_zoopla_homepage() {
-
-        WebDriverManager.chromedriver().setup();
-
-        driver = new ChromeDriver();
-
-        driver.navigate().to("https://www.zoopla.co.uk/");
 
     }
 
     @When("I enter a {string} in the search text box")
     public void i_enter_a_in_the_search_text_box(String string) {
-        searchField = driver.findElement(By.id("search-input-location"));
-        searchField.sendKeys(string);
 
     }
 

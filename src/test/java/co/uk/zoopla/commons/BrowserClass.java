@@ -53,5 +53,11 @@ public class BrowserClass extends DriverClass {
 
 
         }
+
+        driver.manage().window().maximize();
+    }
+    public void closeBrowser(){
+        driver.manage().deleteAllCookies();
+        driver.quit();
     }
 }
