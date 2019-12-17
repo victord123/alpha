@@ -17,4 +17,11 @@ public class HomePage extends BasePage {
      searchField.clear();
      searchField.sendKeys(location);
     }
+
+    @FindBy(id = "forsale_price_min")
+    private WebElement minPrice;
+
+    public void selectMinPrice(String miniPrice){
+        selectByText(minPrice, miniPrice);
+    }
 }
